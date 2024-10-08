@@ -1,14 +1,13 @@
 # Compte_Rendu_Tp01_Unix   HAMMAIDI KARIM
 
-
 2 Post-Installation
 
 2.1  
 configuration du ssh:
 
-- on utlilse: apt update pour rechercher les paquets ssh et les mettres a jours
+- on utlilse: apt update pour rechercher les paquets ssh et les mettres a jours. (ce qui est conseillé avant toute installation)
 - pour vérifier que les paquets SSH sont disponibles et connaître son statut, on exécute la commande suivante :apt search ssh 
--on l'installe avec: apt install openssh-server
+- on l'installe avec: apt install openssh-server
   Pour lancer le ssh: service ssh start
 
 - on tape la commande :systemctl status ssh  
